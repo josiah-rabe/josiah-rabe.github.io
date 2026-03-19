@@ -1,0 +1,16 @@
+@use "minimal-mistakes/skins/default" as *;
+
+// Elementary vibes: tight, centered, system fonts
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.page__content {
+  font-size: 1.125rem;
+  line-height: 1.8;
+}
+
+.masthead { padding: 1rem 0; }  // slim header
